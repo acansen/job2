@@ -20,28 +20,29 @@
     display: flex;
     align-items: center;
     height: 100%;
+    width: 100%;
     flex: 1;
+    position: relative;
+    overflow: hidden;
   }
 
   #banner>div {
     display: flex;
     flex: 1;
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
+    z-index: 5;
   }
+  #banner video{display: flex;flex:1;width:100%;height:100%;}
 </style>
 
 <body class="home page-template page-template-page-modules page-template-page-modules-php page page-id-7532 no-js">
   <header>
     <div class="container header-container">
+      <img src="logo.jpg" style="height: 2rem;" >
       <div class="header-logo">
-        <a href="#">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 20" role="img">
-            <title _mstHash="1">MoreSleep</title>
-            <path
-              d="M20.7 15.9h-3.1V4.7l-5.9 11.2H9L3.1 4.7v11.2H0V.9h4.2l6.2 11.6L16.5.9h4.2v15zm2.2-5.9c0-3.7 3.1-6.2 7.5-6.2s7.5 2.5 7.5 6.2-3.1 6.2-7.5 6.2c-4.3 0-7.5-2.5-7.5-6.2zm12 0c0-2.3-1.9-3.8-4.6-3.8s-4.5 1.5-4.5 3.8 1.9 3.7 4.5 3.7c2.7 0 4.7-1.4 4.6-3.7zm16-5.5L50.3 7c-.8-.4-1.7-.6-2.6-.6-3.1 0-5 2.3-5 6.2v3.3h-3V4.1h3v3.7c.8-2.3 2.5-3.9 5.2-3.9 1.1 0 2.1.2 3 .6zm13.5 7.7l1.1 2.1c-1.8 1.2-4 1.9-6.2 1.9-4 0-7.6-2-7.6-6 0-3.7 2.9-6.3 7.4-6.3s6.7 2.6 6.8 5.8v.8H54.5c.2 2.3 2.3 3.4 4.8 3.4 1.8-.1 3.6-.6 5.1-1.7zm-9.7-3.6H63c-.3-1.5-1.7-2.5-4-2.5-2 0-3.7.9-4.3 2.5zM67.6 14l1-2.6c1.9 1.2 4.4 2.1 7.8 2.1 3.1 0 5.1-.7 5.1-2.1 0-1.2-1.5-1.4-5.1-1.8C71 9 68 8.1 68 5.1 68 2.2 70.9.6 75.8.6c3 0 6.1.7 8 1.6l-.7 2.6c-1.7-.9-4.2-1.7-7.3-1.7-3.2 0-4.6.8-4.6 1.8 0 1.1 1.7 1.5 5.1 1.8 4.9.5 8.4 1.1 8.4 4.4 0 3.1-3.3 4.9-8.4 4.9-3.1.2-6.3-.6-8.7-2zM86.5 0h3v15.9h-3V0zm17.6 12.2l1.1 2.1c-1.8 1.2-4 1.9-6.2 1.9-4 0-7.7-2-7.7-6 0-3.7 2.9-6.3 7.4-6.3 4.6 0 6.7 2.6 6.8 5.8v.8H94.3c.2 2.3 2.3 3.4 4.8 3.4 1.8-.1 3.5-.6 5-1.7zm-9.6-3.6h8.3c-.3-1.5-1.7-2.5-4-2.5-2 0-3.7.9-4.3 2.5zm25 3.6l1.1 2.1c-1.8 1.2-4 1.9-6.2 1.9-4 0-7.7-2-7.7-6 0-3.7 2.9-6.3 7.4-6.3 4.6 0 6.7 2.6 6.8 5.8v.8h-11.4c.2 2.3 2.3 3.4 4.8 3.4 2-.1 3.8-.6 5.2-1.7zm-9.6-3.6h8.3c-.3-1.5-1.7-2.5-4-2.5-2 0-3.7.9-4.3 2.5zM138 10c0 3.6-2.8 6.2-6.8 6.2-2.4 0-4.4-1-5.5-2.7V20h-3V4.1h3v2.4c1.1-1.7 3-2.7 5.5-2.7 4 0 6.8 2.6 6.8 6.2zm-3 0c0-2.2-1.8-3.8-4.6-3.8s-4.6 1.6-4.6 3.8c0 2.2 1.9 3.8 4.6 3.8 2.7 0 4.6-1.6 4.6-3.8z">
-            </path>
-          </svg>
+        <a href="#" class="font-serif-headline" style="font-size: 1.3rem;">
+          MambaAI
           <div class="scribble m--reset" data-scribble-id="C2" style="opacity: 1;"><svg width="1659" height="1187"
               viewBox="0 0 1659 1187" fill="none" xmlns="http://www.w3.org/2000/svg" data-length="9560">
               <defs>
@@ -63,11 +64,11 @@
           <li id="menu-item-6851" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6851"><a
               href="#">About</a></li>
           <li id="menu-item-6850" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6850"><a
-              href="#">Work</a></li>
+              href="https://x.com/mambaai_labs" target="_blank">X</a></li>
           <li id="menu-item-6849" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6849"><a
-              href="#">Contact</a></li>
+              href="#">Log in</a></li>
           <li id="menu-item-6848" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6848"><a
-              href="#">Join us</a></li>
+              href="#">Contact sales</a></li>
         </ul>
         <div class="scribble m--reset" data-scribble-id="U4" style="opacity: 1; left: 254px;"><svg width="2018"
             height="199" viewBox="0 0 2018 199" fill="none" xmlns="http://www.w3.org/2000/svg" data-length="5389">
@@ -84,8 +85,7 @@
             </path>
           </svg></div>
         <ul class="header-nav-social">
-          <li><a href="#"  rel="noopener"><svg
-                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <li><a href="#" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                 <path
                   d="M15.3 10.1c0 2.9-2.4 5.3-5.3 5.3S4.7 13 4.7 10.1 7.1 4.8 10 4.8s5.3 2.4 5.3 5.3zm-8.7 0c0 1.9 1.5 3.4 3.4 3.4s3.4-1.5 3.4-3.4-1.5-3.4-3.4-3.4-3.4 1.5-3.4 3.4zm8.7-4.2c.7 0 1.3-.6 1.3-1.3s-.6-1.2-1.3-1.2S14 4 14 4.7s.6 1.2 1.3 1.2z">
                 </path>
@@ -108,9 +108,12 @@
       </button>
     </div>
   </header>
-  <div id="banner">
-    <div id="b1" style="justify-content: flex-end;">Animated</div>
-    <div id="b2" style="justify-content: flex-start;">Element</div>
+  <div id="banner" class="font-serif-headline" style="margin-top: 4.5rem;">
+    <div id="b1" style="justify-content: flex-end;width:50%;">Animated</div>
+    <div id="b2" style="justify-content: flex-start;width:50%;">Security</div>
+    <div style="flex:1;display: flex;position: absolute;z-index: 1;align-items: center;width: 100%;height: 100%;overflow: hidden;">
+      <video src="bg.mp4" autoplay loop muted></video>
+    </div>
   </div>
 </body>
 <script>
@@ -126,13 +129,15 @@
     await sleep(800)
     b1.className = ''
     b2.className = ''
-    b2.innerText = 'Test'
+    b2.innerText = 'Trust'
     await sleep(300)
-    b2.innerText = 'Shopping'
+    b2.innerText = 'Protection'
     await sleep(300)
-    b2.innerText = 'Sleep'
+    b2.innerText = 'Resilience'
     await sleep(300)
-    b2.innerText = 'Element'
+    b2.innerText = 'Future'
+    await sleep(300)
+    b2.innerText = 'Security'
     await sleep(600)
     b1.className = 'animate__animated animate__fadeOutDown'
     b2.className = 'animate__animated animate__fadeOutUp'
@@ -140,35 +145,120 @@
     animateFn()
   }
   animateFn()
+  class Scribbles {
+    constructor() {
+      this.cronId = ''
+      this.dt = 0
+    }
 
-function init () {
-        let bodyClassList = document.body.classList;
-        let header = document.querySelector('header');
-        let headerNav = document.querySelector('.header-nav');
-        let lastScrollY = 0;
-  document.querySelector('.header-mobile-toggle').addEventListener('click', function (e) {
-    e.preventDefault();
+    play(el) {
+      var svg = el.querySelector('svg');
+      var path = svg.querySelector('path');
+      var length = svg.getAttribute('data-length');
+      console.log(path.style.strokeDashoffset, length)
+      this.cronId = setInterval(() => {
+        if (this.dt >= 600) {
+          clearInterval(this.cronId)
+          this.cronId = ''
+          this.dt = 0
+          return
+        }
+        this.dt += 5
+        path.style.strokeDashoffset = length * (600 - this.dt) / 600;
+      }, 5)
+    }
 
-    let target = e.target;
+    reset(el) {
+      if (this.cronId) {
+        clearInterval(this.cronId)
+        this.cronId = ''
+        this.dt = 0
+      }
+      var path = el.querySelector('svg path');
+      var length = el.querySelector('svg').getAttribute('data-length');
+      path.style.strokeDashoffset = length;
+      path.setAttribute('stroke-dasharray', length);
+    }
 
-    target.querySelector('.toggle-icon')
-      .classList.toggle('toggle-icon--close');
+    init() {
+      const scribbles = document.querySelectorAll('.scribble');
 
-    headerNav.classList.remove('disabled');
+      scribbles.forEach(function (el) {
+        var path = el.querySelector('svg path');
+        if (!path) return;
+        var length = Math.ceil(path.getTotalLength());
+        el.querySelector('svg').setAttribute('data-length', length);
+        path.setAttribute('stroke-dasharray', length);
 
-    window.setTimeout(function () {
-      bodyClassList.toggle('mobile-nav-open');
-    }, 1);
-  });
+        if (utils.hasClass(el, 'm--reset')) {
+          path.style.strokeDashoffset = length;
+          el.style.opacity = 1;
+        }
+      });
+    }
+  }
+  
+  const scribblePlayer = new Scribbles();
+  function init() {
+    let bodyClassList = document.body.classList;
+    let header = document.querySelector('header');
+    let headerNav = document.querySelector('.header-nav');
+    let lastScrollY = 0;
+    document.querySelector('.header-mobile-toggle').addEventListener('click', function (e) {
+      e.preventDefault();
 
-  document.querySelector('.header-nav').addEventListener('transitionend', function(e) {
-            if ( ! bodyClassList.contains('mobile-nav-open')) {
-                headerNav.classList.add('disabled');
-            }
-        });
+      let target = e.target;
 
-}
-init()
+      target.querySelector('.toggle-icon')
+        .classList.toggle('toggle-icon--close');
+
+      headerNav.classList.remove('disabled');
+
+      window.setTimeout(function () {
+        bodyClassList.toggle('mobile-nav-open');
+      }, 1);
+    });
+
+    document.querySelector('.header-nav').addEventListener('transitionend', function (e) {
+      if (!bodyClassList.contains('mobile-nav-open')) {
+        headerNav.classList.add('disabled');
+      }
+    });
+    initLogo()
+    initNavScribbles()
+  }
+  function initLogo() {
+    const logoEl = document.querySelector('header .header-logo a');
+    logoEl.addEventListener('mouseenter', () => {
+      scribblePlayer.play(logoEl.querySelector('.scribble'));
+    });
+    logoEl.addEventListener('mouseleave', () => {
+      scribblePlayer.reset(logoEl.querySelector('.scribble'));
+    });
+  }
+  function initNavScribbles() {
+    const entries = document.querySelectorAll('#menu-primary li a');
+    const scribbleEl = document.querySelector('.header-nav .scribble');
+
+    entries.forEach(function (el) {
+      if (el.parentElement.className.includes('current-menu-item')) {
+        return;
+      }
+      el.addEventListener('mouseenter', () => {
+        const elBounds = el.getBoundingClientRect();
+        const parentBounds = document.getElementById('menu-primary').getBoundingClientRect();
+        let x = Math.ceil(elBounds.x - parentBounds.x + elBounds.width / 2);
+        scribbleEl.style.left = `${x}px`;
+        scribblePlayer.play(scribbleEl);
+      });
+
+      el.addEventListener('mouseleave', () => {
+        scribblePlayer.reset(scribbleEl);
+      });
+    });
+  }
+
+  init()
 </script>
 
 </html>

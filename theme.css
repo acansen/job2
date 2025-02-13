@@ -653,11 +653,11 @@ a {
   color: #FFFFFF;
   text-decoration: none;
 }
-@media (hover: hover) {
+/* @media (hover: hover) {
   a:hover {
     text-decoration: underline;
   }
-}
+} */
 
 .focus-visible {
   outline: 1px dotted;
