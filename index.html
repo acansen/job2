@@ -36,7 +36,9 @@
 
   #b1{width:40%;}
   #b2 {width:60%}
-@media screen and (min-width: 992px) {
+  #bg{flex:1;display: flex;position: absolute;z-index: 1!important;align-items: center;width: 100%;height: 100%;overflow: hidden;}
+  #bg img{opacity: 0.3;}
+  @media screen and (min-width: 992px) {
   #b1{width:45%;}
   #b2 {width:55%}
   #b1,#b2 {font-size: 5rem!important;}
@@ -119,8 +121,9 @@
   <div id="banner" class="font-serif-headline" style="margin-top: 4.5rem;">
     <div id="b1" style="justify-content: flex-end;">More</div>
     <div id="b2" style="justify-content: flex-start;">Security</div>
-    <div id="bg" style="flex:1;display: flex;position: absolute;z-index: 1;align-items: center;width: 100%;height: 100%;overflow: hidden;">
-      <video src="bg.mp4" autoplay loop muted></video>
+    <div id="bg">
+      <!-- <video src="bg.mp4" autoplay loop muted></video> -->
+       <img src="bg.jpg" alt="" style="width: 100%;">
     </div>
   </div>
 </body>
