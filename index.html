@@ -28,12 +28,17 @@
 
   #banner>div {
     display: flex;
-    flex: 1;
     font-size: 2rem;
     color: white;
     z-index: 5;
   }
   #banner video{display: flex;flex:1;width:100%;height:100%;opacity: 0.3;}
+
+  #b1{width:40%;}
+  #b2 {width:60%}
+@media screen and (min-width: 992px) {
+  #b1,#b2 {width:50%;}
+}
 </style>
 
 <body class="home page-template page-template-page-modules page-template-page-modules-php page page-id-7532 no-js">
@@ -84,7 +89,7 @@
               stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5389" style="stroke-dashoffset: 5389;">
             </path>
           </svg></div>
-        <ul class="header-nav-social">
+        <!-- <ul class="header-nav-social">
           <li><a href="#" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                 <path
                   d="M15.3 10.1c0 2.9-2.4 5.3-5.3 5.3S4.7 13 4.7 10.1 7.1 4.8 10 4.8s5.3 2.4 5.3 5.3zm-8.7 0c0 1.9 1.5 3.4 3.4 3.4s3.4-1.5 3.4-3.4-1.5-3.4-3.4-3.4-3.4 1.5-3.4 3.4zm8.7-4.2c.7 0 1.3-.6 1.3-1.3s-.6-1.2-1.3-1.2S14 4 14 4.7s.6 1.2 1.3 1.2z">
@@ -98,7 +103,7 @@
                   d="M10 0C4.5 0 0 4.5 0 10s4.5 10 10 10 10-4.5 10-10c-.1-5.5-4.5-10-10-10zm4.5 14.4c-.2.3-.6.4-.9.2-2.3-1.4-5.3-1.8-8.8-1-.3.1-.7-.2-.7-.5-.1-.3.1-.6.4-.7 3.8-.9 7.1-.5 9.7 1.1.4.2.5.6.3.9zm1.3-2.7c-.2.4-.7.5-1.1.3-2.7-1.6-6.8-2.1-9.9-1.2-.4.1-.8-.1-.9-.6-.2-.4 0-.8.4-.9 3.6-1.1 8.1-.6 11.2 1.3.4.2.5.7.3 1.1zm.1-2.9c-3.2-1.9-8.5-2-11.6-1.1-.5.1-1-.1-1.2-.6-.1-.5.2-1.1.6-1.2 3.6-1.1 9.4-.9 13.1 1.3.4.3.6.8.3 1.3s-.8.6-1.2.3z">
                 </path>
               </svg></a></li>
-        </ul>
+        </ul> -->
       </nav>
       <button class="header-mobile-toggle">
         <span class="toggle-icon">
@@ -109,8 +114,8 @@
     </div>
   </header>
   <div id="banner" class="font-serif-headline" style="margin-top: 4.5rem;">
-    <div id="b1" style="justify-content: flex-end;width:50%;">More</div>
-    <div id="b2" style="justify-content: flex-start;width:50%;">Security</div>
+    <div id="b1" style="justify-content: flex-end;">More</div>
+    <div id="b2" style="justify-content: flex-start;">Security</div>
     <div style="flex:1;display: flex;position: absolute;z-index: 1;align-items: center;width: 100%;height: 100%;overflow: hidden;">
       <video src="bg.mp4" autoplay loop muted></video>
     </div>
